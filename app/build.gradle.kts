@@ -72,6 +72,7 @@ dependencies {
 
     // Feature module support for Fragments
     implementation(libs.navigation.dynamic.features.fragment)
+    implementation(libs.material)
 
     // Testing Navigation
     androidTestImplementation(libs.navigation.testing)
