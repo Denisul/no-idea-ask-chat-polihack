@@ -13,7 +13,14 @@ detekt = "1.23.7"
 espresso_core = "3.6.1"
 junit = "4.13.2"
 kotlin = "2.1.0"
+kotlinx-serialization-json = "1.7.3"
 min_sdk_version = "23"
+navigation-compose = "2.8.4"
+navigation-fragment = "2.8.4"
+navigation-ui = "2.8.4"
+navigation-dynamic-features-fragment = "2.8.4"
+navigation-testing = "2.8.4"
+openai = "2.1.0"
 target_sdk_version = "34"
 benmanesversion = "0.51.0"
 
@@ -38,6 +45,13 @@ detekt_formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", 
 espresso_core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso.core" }
 agp = { module = "com.android.tools.build:gradle", version.ref = "agp" }
 kgp = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation-compose" }
+navigation-testing = { module = "androidx.navigation:navigation-testing", version.ref = "navigation-testing" }
+navigation-dynamic-features-fragment = { module = "androidx.navigation:navigation-dynamic-features-fragment", version.ref = "navigation-dynamic-features-fragment" }
+navigation-ui = { module = "androidx.navigation:navigation-ui", version.ref = "navigation-ui" }
+navigation-fragment = { module = "androidx.navigation:navigation-fragment", version.ref = "navigation-fragment" }
+openai = { module = "com.cjcrafter:openai", version.ref = "openai" }
 
 [plugins]
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }

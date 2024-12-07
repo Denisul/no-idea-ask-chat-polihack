@@ -59,6 +59,25 @@ dependencies {
     implementation(projects.libraryAndroid)
     implementation(projects.libraryCompose)
     implementation(projects.libraryKotlin)
+    implementation(libs.openai)
+    implementation ("androidx.navigation:navigation-fragment-ktx:")
+    implementation ("androidx.navigation:navigation-ui-ktx:")
+
+    // Jetpack Compose integration
+    implementation(libs.navigation.compose)
+
+    // Views/Fragments integration
+    implementation(libs.navigation.fragment)
+    implementation(libs.navigation.ui)
+
+    // Feature module support for Fragments
+    implementation(libs.navigation.dynamic.features.fragment)
+
+    // Testing Navigation
+    androidTestImplementation(libs.navigation.testing)
+
+    // JSON serialization library, works with the Kotlin serialization plugin
+    implementation(libs.kotlinx.serialization.json)
 
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraint.layout)
