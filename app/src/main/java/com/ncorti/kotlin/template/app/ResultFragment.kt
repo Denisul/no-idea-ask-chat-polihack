@@ -10,9 +10,9 @@ import androidx.activity.addCallback
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.ncorti.kotlin.template.app.util.EvaluatePersonality_s1
 import com.ncorti.kotlin.template.app.data.Question
 import com.ncorti.kotlin.template.app.databinding.FragmentTestResultBinding
+import com.ncorti.kotlin.template.app.util.EvaluatePersonality_s1
 
 class ResultFragment : Fragment() {
 
@@ -69,7 +69,9 @@ class ResultFragment : Fragment() {
         }
 
         binding.upgradeButton.setOnClickListener {
-            findNavController().navigate(R.id.action_resultFragment_to_premiumResultFragment, bundle)
+            findNavController().navigate(
+                R.id.action_resultFragment_to_premiumResultFragment, bundle
+            )
         }
 
         return binding.root
