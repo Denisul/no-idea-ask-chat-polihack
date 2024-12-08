@@ -22,5 +22,23 @@
         <action
             android:id="@+id/action_questionaireFragment_to_mainFragment2"
             app:destination="@id/mainFragment2" />
+        <action
+            android:id="@+id/action_questionaireFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.ncorti.kotlin.template.app.ResultFragment"
+        android:label="ResultFragment" >
+        <action
+            android:id="@+id/action_resultFragment_to_mainFragment2"
+            app:destination="@id/mainFragment2" />
+        <action
+            android:id="@+id/action_resultFragment_to_premiumResultFragment"
+            app:destination="@id/premiumResultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/premiumResultFragment"
+        android:name="com.ncorti.kotlin.template.app.PremiumResultFragment"
+        android:label="PremiumResultFragment" />
 </navigation>

@@ -50,7 +50,7 @@ class QuestionaireFragment() : Fragment() {
                 findNavController().navigate(R.id.action_questionaireFragment_self, bundle)
             }
         } else
-            findNavController().navigate(R.id.action_questionaireFragment_to_mainFragment2, Bundle().apply {
+            findNavController().navigate(R.id.action_questionaireFragment_to_resultFragment, Bundle().apply {
                 putSerializable("questions", questions)
             })
         return binding.root
