@@ -1,4 +1,4 @@
-package com.example.fivefactorfinder
+package com.ncorti.kotlin.template.app.util
 
 import android.util.Log
 import com.ncorti.kotlin.template.app.data.Question
@@ -6,7 +6,7 @@ import com.ncorti.kotlin.template.app.data.Question
 class EvaluatePersonality_s1 {
     private var numofquestions = 10
 
-    suspend fun evaluate(questionsList: List<Question>, sex: String, age: Int): MutableMap<String, Int> {
+    fun evaluate(questionsList: List<Question>, sex: String, age: Int): MutableMap<String, Int> {
 
         // Create the answer's list (simulate answer values from the user or test responses)
         val qlist = mutableListOf<Int>()

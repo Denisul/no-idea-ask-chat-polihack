@@ -39,12 +39,13 @@
     <!-- Progress Bar -->
     <ProgressBar
         android:id="@+id/traitProgress"
-        style="?android:attr/progressBarStyleHorizontal"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="match_parent"
         android:layout_height="8dp"
-        android:progressDrawable="@drawable/trait_progress_drawable"
-        android:max="100"
-        tools:progress="85" />
+        android:progressDrawable="@drawable/custom_progressbar"
+        android:indeterminate="false"
+        android:max="10"
+        android:visibility="visible"/>
 
     <!-- Trait Description -->
     <TextView

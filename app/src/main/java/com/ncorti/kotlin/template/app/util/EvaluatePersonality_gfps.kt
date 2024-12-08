@@ -6,7 +6,7 @@ import com.ncorti.kotlin.template.app.data.Question
 class EvaluatePersonality_gfps {
     private var numOfQuestions = 13 // Total number of GFPS questions
 
-    suspend fun evaluate(questionsList: List<Question>, sex: String, age: Int): MutableMap<String, Int> {
+    fun evaluate(questionsList: List<Question>, sex: String, age: Int): MutableMap<String, Int> {
 
         // Simulate or extract user responses from the provided questions list
         val responseList = mutableListOf<Int>()

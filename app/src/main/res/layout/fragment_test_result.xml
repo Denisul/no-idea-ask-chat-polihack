@@ -148,41 +148,39 @@
                         tools:ignore="HardcodedText" />
                 </LinearLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:text="Your test results reveal a strong inclination towards leadership and emotional intelligence, with particular strengths in interpersonal communication and strategic thinking."
-                    android:textColor="#666666"
-                    tools:ignore="HardcodedText" />
-
                 <!-- Progress Bars -->
                 <include
-                    android:id="@+id/leadership"
+                    android:id="@+id/neuroticism"
                     layout="@layout/trait_item_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="12dp" />
 
                 <include
-                    android:id="@+id/emotional_intelligence"
+                    android:id="@+id/extraversion"
                     layout="@layout/trait_item_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="12dp" />
 
                 <include
-                    android:id="@+id/strategic_thinking"
+                    android:id="@+id/openness"
                     layout="@layout/trait_item_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="12dp" />
 
                 <include
-                    android:id="@+id/adaptability"
+                    android:id="@+id/agreeableness"
                     layout="@layout/trait_item_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
+
+                <include
+                android:id="@+id/consciousness"
+                layout="@layout/trait_item_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>

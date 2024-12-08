@@ -15,6 +15,11 @@
 # Java class files
 *.class
 
+app/.env.local
+app/.env
+
+app/src/main/java/com/ncorti/kotlin/template/app/util/ApiKeys.kt
+
 # Generated files
 bin/
 gen/

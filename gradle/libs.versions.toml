@@ -10,7 +10,9 @@ compose_compilerextension = "1.5.5"
 constraint_layout = "2.2.0"
 core_ktx = "1.13.1"
 detekt = "1.23.7"
+dotenv-kotlin = "6.4.2"
 espresso_core = "3.6.1"
+gson = "2.8.9"
 junit = "4.13.2"
 kotlin = "2.1.0"
 kotlinx-serialization-json = "1.7.3"
@@ -20,6 +22,7 @@ navigation-fragment = "2.8.4"
 navigation-ui = "2.8.4"
 navigation-dynamic-features-fragment = "2.8.4"
 navigation-testing = "2.8.4"
+okhttp = "4.12.0"
 openai = "2.1.0"
 target_sdk_version = "34"
 benmanesversion = "0.51.0"
@@ -27,6 +30,8 @@ material = "1.12.0"
 ui-android = "1.7.2"
 
 [libraries]
+dotenv-kotlin = { module = "io.github.cdimascio:dotenv-kotlin", version.ref = "dotenv-kotlin" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 junit = { module = "junit:junit", version.ref = "junit" }
 androidx_activity_compose = { module = "androidx.activity:activity-compose", version.ref = "androidx_activity_compose" }
 androidx_appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
@@ -47,12 +52,14 @@ detekt_formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", 
 espresso_core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso.core" }
 agp = { module = "com.android.tools.build:gradle", version.ref = "agp" }
 kgp = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+konfig = { module = "com.natpryce:konfig" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
 navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation-compose" }
 navigation-testing = { module = "androidx.navigation:navigation-testing", version.ref = "navigation-testing" }
 navigation-dynamic-features-fragment = { module = "androidx.navigation:navigation-dynamic-features-fragment", version.ref = "navigation-dynamic-features-fragment" }
 navigation-ui = { module = "androidx.navigation:navigation-ui", version.ref = "navigation-ui" }
 navigation-fragment = { module = "androidx.navigation:navigation-fragment", version.ref = "navigation-fragment" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
 openai = { module = "com.cjcrafter:openai", version.ref = "openai" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 ui-android = { group = "androidx.compose.ui", name = "ui-android", version.ref = "ui-android" }

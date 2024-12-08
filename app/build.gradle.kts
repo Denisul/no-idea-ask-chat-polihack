@@ -62,7 +62,9 @@ dependencies {
     implementation(libs.openai)
     implementation ("androidx.navigation:navigation-fragment-ktx:")
     implementation ("androidx.navigation:navigation-ui-ktx:")
-    implementation("com.google.code.gson:gson:2.8.9")
+    implementation(libs.gson)
+    implementation(libs.dotenv.kotlin)
+    implementation(libs.okhttp)
     // Jetpack Compose integration
     implementation(libs.navigation.compose)
 
