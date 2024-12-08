@@ -50,13 +50,12 @@ class PremiumResultFragment : Fragment() {
         var agreeableness_ans = 0
         var conscientiousness_ans = 0
 
-        arguments?.apply {
-            neuroticism_ans = getInt("neuroticism")
-            extroversion_ans = getInt("extraversion")
-            openness_ans = getInt("openness")
-            agreeableness_ans = getInt("agreeableness")
-            conscientiousness_ans = getInt("conscientiousness")
-        }
+        neuroticism_ans = arguments?.getInt("Neuroticism")!!
+        extroversion_ans = arguments?.getInt("Extraversion")!!
+        openness_ans = arguments?.getInt("Openness")!!
+        agreeableness_ans = arguments?.getInt("Agreeableness")!!
+        conscientiousness_ans = arguments?.getInt("Conscientiousness")!!
+
 
         val apiService = PersonalityAnalysisService(ApiKeys.openAiKey)
 
