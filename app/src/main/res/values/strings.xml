@@ -10,4 +10,46 @@
     <string name="logo">Logo</string>
     <string name="question_photo">Question Photo</string>
     <string name="upgrade_to_premium">Upgrade to Premium</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+    <!-- Screen Titles -->
+    <string name="personality_profile">Personality Profile</string>
+    <string name="your_personality_traits">Your Personality Traits</string>
+
+    <!-- Summary -->
+    <string name="personality_summary">Your personality assessment reveals a well-balanced profile with particularly high scores in Openness and Agreeableness, suggesting strong creative potential and excellent interpersonal skills.</string>
+
+    <!-- Trait Names -->
+    <string name="trait_openness">Openness</string>
+    <string name="trait_conscientiousness">Conscientiousness</string>
+    <string name="trait_extraversion">Extraversion</string>
+    <string name="trait_agreeableness">Agreeableness</string>
+    <string name="trait_neuroticism">Neuroticism</string>
+
+    <!-- Trait Descriptions -->
+    <string name="desc_openness">High creativity and intellectual curiosity</string>
+    <string name="desc_conscientiousness">Strong sense of organization and reliability</string>
+    <string name="desc_extraversion">Sociable and energetic in interactions</string>
+    <string name="desc_agreeableness">Highly cooperative and compassionate</string>
+    <string name="desc_neuroticism">Good emotional stability and stress management</string>
+
+    <!-- Premium Section -->
+    <string name="unlock_full_analysis">Unlock Full Analysis</string>
+    <string name="premium_description">Get detailed insights into your personality traits and how they influence your behavior and relationships.</string>
+    <string name="premium_feature_1">• Detailed trait interaction analysis</string>
+    <string name="premium_feature_2">• Personal growth recommendations</string>
+    <string name="premium_feature_3">• Career compatibility insights</string>
+
+    <!-- Buttons -->
+
+    <!-- Percentage Format -->
+    <string name="percentage_format">%d%%</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_brand_logo">Brand Logo</string>
+    <string name="cd_brain_icon">Brain Icon</string>
+    <string name="cd_lock_icon">Lock Icon</string>
 </resources>

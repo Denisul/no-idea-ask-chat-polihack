@@ -8,4 +8,10 @@
     <color name="colorAccentSecondary">#FF8E72</color>
     <color name="colorAccentPrimary">#e94435</color>
     <color name="colorBackground">#E7EAEE</color>
+
+    <color name="brand_red">#E94435</color>
+    <color name="brand_light_red">#FF9F8B</color>
+    <color name="background_gray">#E7EAEE</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#666666</color>
 </resources>
