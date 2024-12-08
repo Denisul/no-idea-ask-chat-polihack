@@ -132,7 +132,7 @@ class PersonalityAnalysisService(private val apiKey: String) {
 
     private fun parsePersonalityAnalysis(text: String): PersonalityAnalysisResponse {
         return PersonalityAnalysisResponse(
-            fullAnalysis = text,
+            fullAnalysis = text.substringBefore("## Strengths"),
             personalityInsights = extractPersonalityInsights(text),
             developmentStrategies = extractDevelopmentStrategies(text),
             recommendedResources = extractRecommendedResources(text)
