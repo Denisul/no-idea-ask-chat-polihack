@@ -62,7 +62,7 @@ dependencies {
     implementation(libs.openai)
     implementation ("androidx.navigation:navigation-fragment-ktx:")
     implementation ("androidx.navigation:navigation-ui-ktx:")
-
+    implementation("com.google.code.gson:gson:2.8.9")
     // Jetpack Compose integration
     implementation(libs.navigation.compose)
 
@@ -73,6 +73,7 @@ dependencies {
     // Feature module support for Fragments
     implementation(libs.navigation.dynamic.features.fragment)
     implementation(libs.material)
+    implementation(libs.ui.android)
 
     // Testing Navigation
     androidTestImplementation(libs.navigation.testing)

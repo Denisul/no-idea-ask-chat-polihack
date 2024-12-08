@@ -24,6 +24,7 @@ openai = "2.1.0"
 target_sdk_version = "34"
 benmanesversion = "0.51.0"
 material = "1.12.0"
+ui-android = "1.7.2"
 
 [libraries]
 junit = { module = "junit:junit", version.ref = "junit" }
@@ -54,6 +55,7 @@ navigation-ui = { module = "androidx.navigation:navigation-ui", version.ref = "n
 navigation-fragment = { module = "androidx.navigation:navigation-fragment", version.ref = "navigation-fragment" }
 openai = { module = "com.cjcrafter:openai", version.ref = "openai" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+ui-android = { group = "androidx.compose.ui", name = "ui-android", version.ref = "ui-android" }
 
 [plugins]
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }

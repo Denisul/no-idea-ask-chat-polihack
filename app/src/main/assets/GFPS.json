@@ -1,0 +1,67 @@
+[
+  {
+    "questionId": 1,
+    "questionHeadingContent": "Enjoy challenging tasks",
+    "questionSubtextContent": "I enjoy challenging tasks/activities that require a lot of focus."
+  },
+  {
+    "questionId": 2,
+    "questionHeadingContent": "Forget surroundings while focused",
+    "questionSubtextContent": "When I'm focused on a task/activity, I tend to forget my surroundings (other people, time, and place)."
+  },
+  {
+    "questionId": 3,
+    "questionHeadingContent": "Experience good flow in tasks",
+    "questionSubtextContent": "I usually experience a good flow when I do something (things are neither too easy nor too difficult for me)."
+  },
+  {
+    "questionId": 4,
+    "questionHeadingContent": "Have diverse interests",
+    "questionSubtextContent": "I have several different areas of interest."
+  },
+  {
+    "questionId": 5,
+    "questionHeadingContent": "Difficulty walking away from projects",
+    "questionSubtextContent": "It's difficult for me to quit or walk away from a project I'm currently working on."
+  },
+  {
+    "questionId": 6,
+    "questionHeadingContent": "Stress in challenging tasks",
+    "questionSubtextContent": "I become stressed in the face of difficult/challenging tasks."
+  },
+  {
+    "questionId": 7,
+    "questionHeadingContent": "Difficulty maintaining concentration",
+    "questionSubtextContent": "It's difficult for me to maintain concentration over time."
+  },
+  {
+    "questionId": 8,
+    "questionHeadingContent": "Tiring of activities quickly",
+    "questionSubtextContent": "I quickly become tired of the things I do."
+  },
+  {
+    "questionId": 9,
+    "questionHeadingContent": "Satisfaction with task results",
+    "questionSubtextContent": "I am usually satisfied with the results of my efforts across various tasks (I experience feelings of mastery)."
+  },
+  {
+    "questionId": 10,
+    "questionHeadingContent": "Forget to take breaks when focused",
+    "questionSubtextContent": "I often forget to take a break when I focus on something."
+  },
+  {
+    "questionId": 11,
+    "questionHeadingContent": "Easily bored",
+    "questionSubtextContent": "I get bored easily."
+  },
+  {
+    "questionId": 12,
+    "questionHeadingContent": "Tasks are exhausting, not stimulating",
+    "questionSubtextContent": "My daily tasks are exhausting rather than stimulating."
+  },
+  {
+    "questionId": 13,
+    "questionHeadingContent": "Interest in most activities",
+    "questionSubtextContent": "I develop an interest in most things I do in life."
+  }
+]

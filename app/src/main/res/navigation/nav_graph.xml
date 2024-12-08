@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/mainFragment">
+    app:startDestination="@id/mainFragment2">
     <fragment
-        android:id="@+id/mainFragment"
+        android:id="@+id/mainFragment2"
         android:name="com.ncorti.kotlin.template.app.MainFragment"
-        android:label="MainFragment" />
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment2_to_questionaireFragment"
+            app:destination="@id/questionaireFragment"
+            app:popUpTo="@id/mainFragment2"/>
+    </fragment>
+    <fragment
+        android:id="@+id/questionaireFragment"
+        android:name="com.ncorti.kotlin.template.app.QuestionaireFragment"
+        android:label="QuestionaireFragment" >
+        <action
+            android:id="@+id/action_questionaireFragment_self"
+            app:destination="@id/questionaireFragment" />
+        <action
+            android:id="@+id/action_questionaireFragment_to_mainFragment2"
+            app:destination="@id/mainFragment2" />
+    </fragment>
 </navigation>

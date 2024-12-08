@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_indicator"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="8dp"
+        android:layout_width="0dp"
+        app:trackCornerRadius="16dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progressDrawable="@drawable/custom_progressbar"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="20dp"
+        android:visibility="visible"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/question_photo"
+        android:src="@drawable/question1"
+        app:layout_constraintTop_toBottomOf="@id/progress_indicator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginVertical="25dp"/>
+
+    <TextView
+        android:id="@+id/question_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        app:layout_constraintTop_toBottomOf="@id/image"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingHorizontal="20dp"
+        android:layout_marginVertical="25dp"
+        android:justificationMode="inter_word"
+        android:maxLines="8"
+        android:textSize="26sp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/answer_slider"
+        app:trackHeight="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:value="3"
+        android:valueFrom="1.0"
+        android:valueTo="5.0"
+        app:layout_constraintDimensionRatio="35:4"
+        app:trackColor="@color/colorAccentPrimary"
+        app:layout_constraintBottom_toTopOf="@id/next_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="25dp"
+        app:layout_goneMarginTop="30dp"
+        android:layout_marginBottom="30dp"
+        app:trackStopIndicatorSize="2dp" />
+
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginVertical="25dp"
+        android:drawableStart="@drawable/next_ic"
+        android:background="@drawable/rounded_button"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:text="NEXT"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

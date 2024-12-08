@@ -1,0 +1,52 @@
+[
+  {
+    "questionId": 1,
+    "questionHeadingContent": "Worry about things",
+    "questionSubtextContent": "How often do you find yourself feeling anxious or uneasy? Do you worry about the future, past mistakes, or everyday challenges?"
+  },
+  {
+    "questionId": 2,
+    "questionHeadingContent": "Make friends easily",
+    "questionSubtextContent": "Do you find it easy to connect with and build relationships with new people? Are you comfortable in social situations?"
+  },
+  {
+    "questionId": 3,
+    "questionHeadingContent": "Have a vivid imagination",
+    "questionSubtextContent": "Do you enjoy daydreaming or fantasizing about things? Are you able to think creatively and come up with new ideas?"
+  },
+  {
+    "questionId": 4,
+    "questionHeadingContent": "Trust others",
+    "questionSubtextContent": "Do you generally believe in the honesty and integrity of others? Are you willing to trust people with your secrets or personal information?"
+  },
+  {
+    "questionId": 5,
+    "questionHeadingContent": "Complete tasks successfully",
+    "questionSubtextContent": "Are you organized and efficient in completing tasks? Do you meet deadlines and achieve your goals?"
+  },
+  {
+    "questionId": 6,
+    "questionHeadingContent": "Get stressed easily",
+    "questionSubtextContent": "Do you often feel overwhelmed by stress or find it hard to stay calm in challenging situations?"
+  },
+  {
+    "questionId": 7,
+    "questionHeadingContent": "Enjoy being the center of attention",
+    "questionSubtextContent": "Do you feel comfortable when all eyes are on you? Do you enjoy taking the lead in social settings?"
+  },
+  {
+    "questionId": 8,
+    "questionHeadingContent": "Like to try new experiences",
+    "questionSubtextContent": "Do you enjoy stepping out of your comfort zone and trying unfamiliar activities or ideas?"
+  },
+  {
+    "questionId": 9,
+    "questionHeadingContent": "Feel sympathy for others",
+    "questionSubtextContent": "Do you empathize with people when they are going through tough times? Are you compassionate and supportive?"
+  },
+  {
+    "questionId": 10,
+    "questionHeadingContent": "Stick to a routine",
+    "questionSubtextContent": "Do you prefer to have a regular schedule and plan your activities in advance? Do you dislike disruptions to your routine?"
+  }
+]
